@@ -1,0 +1,71 @@
+body{
+    color:purple;
+    background-color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+/*p{
+    font-style:italic;
+    font-size:xx-large;
+    font-weight:bolder;
+}*/
+img{
+    height:200px;
+    weight:200px;
+}
+video{
+    height:200px;
+    weight:200px;
+}
+ol{
+    list-style-type:upper-roman;
+}
+ul{
+    list-style-type:circle;
+}
+table{
+    border:2px solid white;
+    border-collapse:collapse;
+}
+h1{
+    padding:50px;
+    border:2px solid green;
+    margin:20px;
+}
+button:hover{
+    background-color:green;
+    border-radius:10px;
+}
+button{
+    padding:10px;
+    margin:20px;
+}
+nav{
+    display:flex;
+    flex direction:column;
+    
+}
+#p1{
+    font-style:c;
+    font-size:xx-large;
+    font-weight:bolder;
+    color:blue;
+}
+#p2{
+    font-style:italic;
+    font-size:xx-large;
+    font-weight:bolder;
+    color:orange;
+}
+.pclass{
+    font-style:italic;
+    font-size:xx-large;
+    font-weight:bolder;
+    color:green;
+}
+.grid{
+    display:grid;
+
+
+    
+}
+festival
