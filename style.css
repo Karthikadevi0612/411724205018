@@ -9,12 +9,21 @@ body{
     font-weight:bolder;
 }*/
 img{
-    height:200px;
-    weight:200px;
+    height:500px;
+    width:500px;
+
+}
+
+@media (max-width: 1024px){
+    img{
+        height:auto;
+        width:100%;
+    }
+
 }
 video{
     height:200px;
-    weight:200px;
+    width:200px;
 }
 ol{
     list-style-type:upper-roman;
@@ -40,9 +49,16 @@ button{
     margin:20px;
 }
 nav{
-    display:flex;
-    flex direction:column;
+    display: flex;
+    flex-direction: column;
     
+}
+@media (min-width :1024px){
+    nav{
+        display:flex;
+        flex-direction:row;
+        gap:100px;
+    }
 }
 #p1{
     font-style:c;
